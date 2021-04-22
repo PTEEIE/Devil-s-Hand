@@ -1,5 +1,6 @@
 # Devil's Hand
-![image](https://user-images.githubusercontent.com/82965181/115597274-61f54900-a2d9-11eb-9e54-97b9d653a5e2.png)
+![image](https://user-images.githubusercontent.com/82965181/115750867-e8249480-a398-11eb-87e3-c3696f2c65da.png)
+
 ### Welcome to GeroGames new game!
 
 Devil's Hand a deck-building roguelike game that takes place in the depths of Hell!
