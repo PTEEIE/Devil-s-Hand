@@ -33394,123 +33394,93 @@ a.u-link.u-text-hover-grey-90:hover {
         /** common-rules **/
         h1.u-title
         {
-        font-weight: bold;
-        letter-spacing: -1px;
-        line-height: 1.1;
+        font-weight: 400;
         font-size: 4.5rem;
-        text-transform: uppercase;
+        line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h2.u-subtitle
         {
-        font-weight: bold;
-        line-height: 1.1;
+        font-weight: 400;
         font-size: 2.25rem;
-        text-transform: uppercase;
+        line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h1:not(.u-title)
         {
-        font-weight: bold;
-        letter-spacing: -1px;
+        font-weight: 400;
+        font-size: 3rem;
         line-height: 1.1;
-        font-size: 3.75rem;
-        text-transform: uppercase;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h2:not(.u-subtitle)
         {
-        line-height: 1.1;
+        font-weight: 400;
         font-size: 2.25rem;
-        text-transform: uppercase;
+        line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
-        list-icon-spacing: 0.3;
-        list-icon-size: 0.8;
         }
         h3
         {
-        font-weight: bold;
-        line-height: 1.1;
+        font-weight: 400;
         font-size: 1.875rem;
-        text-transform: uppercase;
+        line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h4
         {
-        font-weight: bold;
-        line-height: 1.2;
+        font-weight: 400;
         font-size: 1.5rem;
-        text-transform: uppercase;
+        line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h5
         {
-        font-weight: bold;
-        line-height: 1.2;
+        font-weight: 400;
         font-size: 1.25rem;
-        text-transform: uppercase;
+        line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         h6
         {
-        font-weight: bold;
-        line-height: 1.2;
+        font-weight: 400;
         font-size: 1.125rem;
-        text-transform: uppercase;
+        line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         p.u-large-text
         {
-        font-weight: 400;
-        line-height: 1.6;
-        font-size: 1rem;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        }
-        p:not(.u-text-variant)
-        {
-        font-weight: 400;
-        line-height: 1.6;
-        font-size: 1rem;
+        font-size: 1.25rem;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         p.u-small-text
         {
-        font-weight: 400;
-        line-height: 1.6;
         font-size: 0.875rem;
         margin-top: 20px;
         margin-bottom: 20px;
         }
-        a
+        p:not(.u-text-variant)
         {
-        font-weight: bold;
-        letter-spacing: 1px;
-        line-height: 1.8;
+        margin-top: 20px;
+        margin-bottom: 20px;
         }
         .u-btn
         {
-        font-weight: bold;
-        font-size: 1rem;
-        letter-spacing: 1px;
-        line-height: 1.4;
         margin-top: 20px;
         margin-bottom: 20px;
         }
         blockquote
         {
         font-style: italic;
-        line-height: 1.6;
-        font-size: 1.25rem;
         padding-left: 20px;
         border-width: 4px;
         margin-top: 20px;
@@ -33518,10 +33488,6 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-metadata
         {
-        font-size: 0.75rem;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        line-height: 1.4;
         margin-top: 20px;
         margin-bottom: 20px;
         }
@@ -33556,16 +33522,10 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 3rem;
         }
         }
-        @media (max-width: 767px) {
+        @media (max-width: 575px) {
         h2.u-subtitle
         {
         font-size: 1.5rem;
-        }
-        }
-        @media (max-width: 767px) {
-        h1:not(.u-title)
-        {
-        font-size: 3rem;
         }
         }
         @media (max-width: 575px) {
@@ -33574,13 +33534,13 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 2.25rem;
         }
         }
-        @media (max-width: 767px) {
+        @media (max-width: 575px) {
         h2:not(.u-subtitle)
         {
         font-size: 1.5rem;
         }
         }
-        @media (max-width: 767px) {
+        @media (max-width: 575px) {
         h3
         {
         font-size: 1.5rem;
@@ -33601,31 +33561,15 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         font-size: 3rem;
         }
-        .u-sm h2.u-subtitle
-        {
-        font-size: 1.5rem;
-        }
         .u-xs h2.u-subtitle
         {
         font-size: 1.5rem;
-        }
-        .u-sm h1:not(.u-title)
-        {
-        font-size: 3rem;
         }
         .u-xs h1:not(.u-title)
         {
         font-size: 2.25rem;
         }
-        .u-sm h2:not(.u-subtitle)
-        {
-        font-size: 1.5rem;
-        }
         .u-xs h2:not(.u-subtitle)
-        {
-        font-size: 1.5rem;
-        }
-        .u-sm h3
         {
         font-size: 1.5rem;
         }
@@ -33637,13 +33581,6 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
-        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h2:not(.u-subtitle),
-        .u-gradient > .u-container-layout > h2:not(.u-subtitle),
-        .u-image:not(.u-shading) > .u-container-layout > h2:not(.u-subtitle),
-        h2:not(.u-subtitle)
-        {
-        color: #f5d654;
-        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
@@ -33700,10 +33637,6 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
-        .u-shading h2:not(.u-subtitle),.u-overlap-contrast .u-header h2:not(.u-subtitle):not(.u-nav-link):not(.u-btn)
-        {
-        color: #72683f;
-        }
         .u-body-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-4 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
         {
         color: #eeaaeb;
@@ -33765,7 +33698,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-1 {
   font-size: 2.25rem;
-  margin: -65px 910px 15px 48px;
+  margin: -65px 890px 15px 48px;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
@@ -33781,14 +33714,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     margin-top: -65px;
-    margin-right: 758px;
+    margin-right: 738px;
     margin-left: 75px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
+    margin-top: 20px;
     margin-right: 0;
-    margin-bottom: 58px;
     margin-left: auto;
   }
 }
@@ -33796,16 +33729,12 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: auto;
   }
-
-  .u-header .u-text-1 {
-    margin-right: 358px;
-    margin-bottom: 15px;
-    margin-left: 75px;
-  }
 }
 @media (max-width: 575px) {
   .u-header .u-text-1 {
-    margin-right: 158px;
+    margin-top: -65px;
+    margin-right: 138px;
+    margin-left: 75px;
   }
 }
 .u-footer {
