@@ -33719,15 +33719,24 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 180px;
+  }
+
   .u-header .u-text-1 {
-    margin-top: 20px;
-    margin-right: 0;
-    margin-left: auto;
+    width: auto;
+    margin: -48px 471px 60px 59px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     width: auto;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -48px;
+    margin-right: 350px;
+    margin-left: 0;
   }
 }
 @media (max-width: 575px) {
