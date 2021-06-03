@@ -1,8 +1,13 @@
+@import url("devils_hand_font/stylesheet.css");
 /*begin-commonstyles library*//*!
  * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
+@font-face {
+ font-family: 'DevilHand';
+ src: url('fonts/devils-hand-font.ttf');
+ }
 
 .fr-clearfix::after {
   clear: both;
@@ -16865,7 +16870,7 @@ p {
   font-family: 'Playfair Display', serif !important;
 }
 .u-font-lobster.u-custom-font {
-  font-family: Lobster, display !important;
+    font-family: "devils hand font" !important;
 }
 .u-rectangle {
   border-radius: 0;
